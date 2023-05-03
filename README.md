@@ -1,6 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+This is a full stack project for <h4> Food deleivery application</h4>
+In this project we have <br>
+-> <b>Admin pannel(currently in production) for tracking all the orders , change the state of order , delete the order.</b> <br>
+-><b> Home page for showing full products.</b><br>
+-><b> product page -> after ordering you will land to front page.</b><br>
+  -><b> order page -> (here comes the payment gateway for ordering the pizza). </b><br> </b>
+
+Technologies used<br>
+-> Next js<br>
+-> React js and Redux<br>
+-> MongoDB<br>
+-> Paypal for payment gateway<br>
+
+
+
+
+
 <h5>The Website is currently in production stage please don't clone </h5>
 
 First, run the development server:
