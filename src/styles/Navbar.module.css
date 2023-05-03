@@ -85,8 +85,30 @@
     .item:nth-child(2) {
       display: none;
     }
-  
+    .container{
+      height: 80px;
+      width: 65%;
+    }
     .item:nth-child(1) {
       flex: 3;
     }
+    .text:first-child {
+      font-size: 10px;
+      font-weight: 500;
+    }
+    .text:last-child {
+      font-size: 10px;
+      font-weight: bold;
+    } 
+    
+    .callButton {
+      background-color: white;
+      border-radius: 50%;
+      padding: 5px 7px; 
+      width: 45px;
+      height: 45px;
+    }
+    .cart{
+      position: relative;
+  }
   }

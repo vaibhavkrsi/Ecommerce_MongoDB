@@ -30,8 +30,8 @@ const Featured = () => {
                     </div>
                 ))}  
         </div> 
-                <img src='https://raw.githubusercontent.com/safak/youtube/next-pizza-ui/public/img/arrowl.png' className= {styles.arrow} onClick={()=>handleArrow("l")}   style={{left:0}} layout="fill"   alt=''/> 
-                <img src='https://raw.githubusercontent.com/safak/youtube/next-pizza-ui/public/img/arrowr.png' className= {styles.arrow} onClick={()=>handleArrow("r")}   style={{right:0}} layout="fill"   alt=''/>
+                <img src='https://raw.githubusercontent.com/safak/youtube/next-pizza-ui/public/img/arrowl.png' className= {styles.arrowl} onClick={()=>handleArrow("l")}   style={{left:0}} layout="fill"   alt=''/> 
+                <img src='https://raw.githubusercontent.com/safak/youtube/next-pizza-ui/public/img/arrowr.png' className= {styles.arrowr} onClick={()=>handleArrow("r")}   style={{right:0}} layout="fill"   alt=''/>
        
            
       
