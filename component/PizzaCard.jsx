@@ -1,18 +1,22 @@
 import React from 'react'
-import styles from '../src/styles/PizzaCard.module.css'
+import styles from '../src/styles/PizzaCard.module.css'; 
+import Link from 'next/link';
 
 
-const PizzaCard = () => {
-  return (
+const PizzaCard = ({pizza}) => {
+  return ( 
     <div className= {styles.container}>  
-        <img src='https://raw.githubusercontent.com/safak/youtube/next-pizza-ui/public/img/pizza.png' height= "300" width= "300" /> 
-        <h1 className= {styles.title}>Firori di zucca</h1>
-        <span className= {styles.price}>$19.80</span>
+    <Link href={`/product/${pizza._id}`} passHref>   
+        <img src={pizza.img} height= "300" width= "300" /> 
+    </Link>
+        <h1 className= {styles.title}>{pizza.title}</h1>
+        <span className= {styles.price}>${pizza.prices[0]}</span>
         <p className= {styles.desc}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          {pizza.desc}
         </p>
     </div>
   )
 }
+
 
 export default PizzaCard
